@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number Game</title>
+    <style>
+        main{
+            width: 60vw;
+            margin: 0 auto;
+            text-align: center;
+            background: rgb(110, 109, 109);
+            color: white;
+            padding: 20px;
+        }
+
+        button{
+            font-size: 17px;
+            padding: 10px;
+            display: block;
+            margin: 10px auto;
+            color: black;
+        }
+        p{  
+            color: black;
+            font-size: 20px;
+        }
+        #displayStat{
+            color:blue;
+        }
+        #restart{
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+
+        <h1>Random Number Sum</h1>
+        <h2>Can You Get the Sum of Number 24?</h2>
+
+        <div id="cardArray"></div>
+
+        <h3 id="displayStat"></h3>
+
+        <p id="displayNumber">Number Picked: </p>
+        <p id="displaySum">Sum Of Number Picked:</p>
+
+
+
+        <button id="start">Start Game</button>
+
+        <button id="add">Add new Number</button>
+        <button id="restart">Restart Game</button>
+
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
